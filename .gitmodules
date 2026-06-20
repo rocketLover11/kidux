@@ -1,0 +1,3 @@
+[submodule "src/ksh"]
+	path = src/ksh
+	url = https://github.com/rocketLover11/kidux-shell.git
