@@ -1,0 +1,24 @@
+# Kidux Build System Outputs
+staging/
+*.iso
+*.img
+
+# Rust Crates
+**/target/
+**/*.rs.bk
+Cargo.lock
+
+# System and Build Tool Backups
+.build/
+chroot/
+binary/
+cache/
+.chroot_*
+
+# OS and Editor Garbage
+.DS_Store
+.thumbs/
+.vscode/
+.idea/
+*.swp
+*.log
